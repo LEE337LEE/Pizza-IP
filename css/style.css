@@ -1,7 +1,4 @@
-@font-face {
-  src:url("/images/DancingScript-VariableFont_wght.ttf");
-  font-family:curly;
-  }
+
   
   #h3 {
       text-align: center;
@@ -39,7 +36,7 @@
       margin-top:-30%;
     
   }
-  .pizzero {
+  .pizzapap {
       margin-top: .3%;
   }
   .back-g {
@@ -163,7 +160,7 @@
   }
   #footer-area {
       padding: 90px 0 60px 0;
-      background: #49170e;
+      background: #c8db17;
       color:white;
   }
   .link-area li {
@@ -175,7 +172,7 @@
   align-items: center;
   }
   .copyright-area{
-      background:red;
+      background:mediumseagreen;
       padding:30px 0;
   }
   
