@@ -201,7 +201,31 @@
                                 <option value="Bacon">Bacon</option>
                             </select>
                         </div>
-                    </div>        
+                    </div>  
+                    
+                    
+                    <div class="row">
+                      <div class="col-md-4 pizza-quantity">
+                          <label for="quantity" style="color:white;">How many do you want?</label>
+                          <input type="number" class="form-control" id="pizza-quantity" min="1" required>
+                      </div>
+                      <div class="col-md-4 delivery">
+                          <label for="delivery" style="color:white;">Delivery(300 Ksh) or Collect?</label>
+                          <select name="delivery" class="form-control" id="delivery">
+                              <option value="deliver">Delivery</option>
+                              <option value="collect">Collect</option>
+                          </select>
+                      </div>
+                      <div class="col-md-4 pizza-size">
+                          <label for="pizza-size" style="color:white;">Size</label>
+                          <select class="form-control" id="pizza-size">
+                              <option value="large">Large</option>
+                              <option value="medium">Medium</option>
+                              <option value="small">Small</option>
+                          </select>
+                      </div>
+                      <input type="submit" id="order-ready" class="btn">
+              </form>       
   
 </body>
 </html>
