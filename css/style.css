@@ -69,7 +69,7 @@
       display:block;
       width:100px;
       height:2px;
-      background:goldenrod; 
+      background:rgb(214, 78, 15); 
       position: absolute;
       left:35%;
       top:50%;
@@ -87,7 +87,7 @@
       z-index:-.3;
   }
   .place-order {
-      background-color: rgba(167, 40, 8, 0.8);
+      background-color: rgba(182, 221, 40, 0.8);
       color:white;
       margin:0 40% 2% 40%;
       padding:1%;
@@ -96,14 +96,14 @@
   }
   .place-order:hover {
       cursor: pointer;
-      background-color: rgb(148, 113, 24);
+      background-color: rgb(194, 99, 35);
   }
   .ordering-plate {
       z-index: 1;
       position: absolute;
       top:0;
       bottom:0;
-      background-color:rgba(0, 0, 0, 0.6);
+      background-color:rgba(29, 167, 121, 0.6);
       margin:0 7% 0 7%;
       padding:2%;
       height:800px;
@@ -133,11 +133,11 @@
    border-radius: 5px;
    margin-bottom:2%;
    padding:2%;
-   background-color: #49170e; 
+   background-color: #babd2d; 
   }
   #order-ready {
       width:25%;
-      background-color: #49170e;
+      background-color: #0becda;
       color:goldenrod;
       font-weight:bold;
       padding:20px;
